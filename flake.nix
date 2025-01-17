@@ -45,7 +45,7 @@
 		  sha256 = downloadData.sha256;
 		};
 		
-		desktopSrc = ./.;
+		desktopSrc = ./;
 
 		phases = [ "installPhase" "fixupPhase" ];
 
